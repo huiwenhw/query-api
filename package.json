@@ -1,0 +1,16 @@
+{
+  "name": "Query-API-for-Github",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon .",
+    "start": "node crawler.js && nodemon server.js"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "~1.0.1",
+    "express": "~4.0.0",
+    "mongodb": "^3.0.5",
+    "mongoose": "^5.0.12",
+    "nodemon": "^1.17.2"
+  }
+}
