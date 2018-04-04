@@ -20,7 +20,7 @@ Endpoints:
 
 | HTTP METHOD | ENDPOINT | RESOURCE |
 |-------------|----------|----------|
-| GET | /users | Returns all scraped | github users and their repositories |
+| GET | /users | Returns all scraped github users and their repositories |
 | GET | /users/:name/repos | Returns all repositories of given user |
 | GET | /users/:user/repos/:reponame | Returns details of given repository of given user |
 | GET | /repos | Returns all repositories |
